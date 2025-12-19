@@ -34,23 +34,22 @@ FactCheck-AI/
 ##  Installation
 Clone the repository:
 
-\\\ash
 git clone https://github.com/tamim-amin/factcheck-ai.git
+
 cd factcheck-ai
-\\\
 
 Create a virtual environment (Optional but recommended):
 
-\\\ash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-\\\
+
+source venv/bin/activate  
+On Windows: venv\Scripts\activate
+
 
 Install dependencies:
 
-\\\ash
 pip install -r requirements.txt
-\\\
+
 
 ##  Usage
 
@@ -66,9 +65,9 @@ This will generate two files: vector.pkl and model.pkl.
 ### 2. Running the Web App
 To start the application locally:
 
-\\\ash
+
 streamlit run app.py
-\\\
+
 
 Once running, your browser will open (usually at http://localhost:8501).
 
